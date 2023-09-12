@@ -1,0 +1,11 @@
+.app {
+	text-align: center;
+	background-color: #f4f4f4;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* font-size: calc(10px + 2vmin); */
+	color: #333;
+	box-sizing: border-box;
+}

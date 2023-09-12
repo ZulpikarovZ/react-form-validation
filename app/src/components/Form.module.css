@@ -1,0 +1,52 @@
+.form {
+	margin-top: 80px;
+	padding: 20px;
+	width: 460px;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+
+.title {
+	font-size: 22px;
+}
+
+.formFields {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	margin-top: 30px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	padding: 0 14px;
+}
+
+.signUp {
+	margin-top: 30px;
+	background-color: #558cb7;
+	color: #fff;
+	height: 48px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 15px;
+	border: none;
+}
+
+.signUp:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.signUp:focus {
+	border: 1px solid blue;
+}
+
+.errors {
+	color: #de5959;
+	font-size: 12px;
+	margin-top: 7px;
+}
